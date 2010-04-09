@@ -37,4 +37,5 @@ module Rack
   autoload :ResponseCache,              "rack/contrib/response_cache"
   autoload :RelativeRedirect,           "rack/contrib/relative_redirect"
   autoload :StaticCache,           	"rack/contrib/static_cache"
+  autoload :RootIndex,                  "rack/contrib/root_index"
 end
